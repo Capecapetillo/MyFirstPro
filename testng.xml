@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite my first tests login">
+ <test name="Regresion Login">
+ <classes>
+            <!-- Aquí incluyes tus dos clases de prueba -->
+            <class name="tests.IntroPom"/>
+            <class name="tests.errorlogin"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
